@@ -1,0 +1,46 @@
+export const en = {
+  app: { name: "GameMod Hub" },
+  nav: { home: "Home", myGames: "My games", library: "Library", customize: "Customize", settings: "Settings", overlay: "Overlay" },
+  auth: {
+    welcome: "Welcome",
+    subtitle: "Sign in with a local profile. Nothing leaves your computer.",
+    username: "Username",
+    logIn: "Log in",
+    logOut: "Log out",
+    usernameRequired: "Enter a username",
+  },
+  home: {
+    greeting: "Welcome back, {name}",
+    continuePlaying: "Continue playing",
+    featured: "Featured games",
+    empty: "You haven't opened any game yet.",
+  },
+  myGames: { title: "My games", empty: "No games pinned yet. Add some from the Library.", remove: "Remove" },
+  library: { title: "Library", search: "Search games", genre: "Genre", all: "All genres", add: "Add to my games", added: "In my games", noResults: "No games match your search." },
+  game: {
+    notFound: "Game not found",
+    mods: "Mods",
+    noMods: "This game has no mods yet.",
+    enableAll: "Enable all",
+    disableAll: "Disable all",
+    hotkey: "Hotkey",
+    active: "{count} active",
+    play: "Play",
+    playWithoutMods: "Play without mods",
+    simulated: "Mods are simulated in this build and do not touch any game.",
+  },
+  customize: { title: "Customize", theme: "Theme", dark: "Dark", light: "Light", accent: "Accent color", compact: "Compact lists" },
+  settings: {
+    title: "Settings",
+    language: "Language",
+    notifications: "Notifications",
+    notificationsHelp: "Show a toast when a mod changes",
+    trayHelp: "Keep running in the tray when closed",
+    reset: "Reset all data",
+    resetConfirm: "This clears your profile, games and settings. Continue?",
+  },
+  overlay: { title: "Overlay", hint: "Quick mod controls while you play", nothing: "Open a game to see its mods here." },
+  common: { cancel: "Cancel", confirm: "Confirm", pro: "Plus" },
+};
+
+export type Messages = typeof en;

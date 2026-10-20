@@ -1,0 +1,46 @@
+import type { Messages } from "./en";
+
+export const id: Messages = {
+  app: { name: "GameMod Hub" },
+  nav: { home: "Beranda", myGames: "Game saya", library: "Pustaka", customize: "Kustomisasi", settings: "Pengaturan", overlay: "Overlay" },
+  auth: {
+    welcome: "Selamat datang",
+    subtitle: "Masuk dengan profil lokal. Tidak ada data yang keluar dari komputer Anda.",
+    username: "Nama pengguna",
+    logIn: "Masuk",
+    logOut: "Keluar",
+    usernameRequired: "Masukkan nama pengguna",
+  },
+  home: {
+    greeting: "Selamat datang kembali, {name}",
+    continuePlaying: "Lanjutkan bermain",
+    featured: "Game unggulan",
+    empty: "Anda belum membuka game apa pun.",
+  },
+  myGames: { title: "Game saya", empty: "Belum ada game yang disematkan. Tambahkan dari Pustaka.", remove: "Hapus" },
+  library: { title: "Pustaka", search: "Cari game", genre: "Genre", all: "Semua genre", add: "Tambah ke game saya", added: "Ada di game saya", noResults: "Tidak ada game yang cocok." },
+  game: {
+    notFound: "Game tidak ditemukan",
+    mods: "Mod",
+    noMods: "Game ini belum punya mod.",
+    enableAll: "Aktifkan semua",
+    disableAll: "Matikan semua",
+    hotkey: "Tombol pintas",
+    active: "{count} aktif",
+    play: "Main",
+    playWithoutMods: "Main tanpa mod",
+    simulated: "Mod di versi ini hanya simulasi dan tidak menyentuh game apa pun.",
+  },
+  customize: { title: "Kustomisasi", theme: "Tema", dark: "Gelap", light: "Terang", accent: "Warna aksen", compact: "Daftar ringkas" },
+  settings: {
+    title: "Pengaturan",
+    language: "Bahasa",
+    notifications: "Notifikasi",
+    notificationsHelp: "Tampilkan toast saat mod berubah",
+    trayHelp: "Tetap berjalan di tray saat ditutup",
+    reset: "Hapus semua data",
+    resetConfirm: "Ini menghapus profil, game, dan pengaturan Anda. Lanjutkan?",
+  },
+  overlay: { title: "Overlay", hint: "Kontrol mod cepat saat bermain", nothing: "Buka sebuah game untuk melihat modnya di sini." },
+  common: { cancel: "Batal", confirm: "Konfirmasi", pro: "Plus" },
+};
